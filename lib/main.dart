@@ -16,7 +16,7 @@ import 'package:trnews/features/shared/presentation/weather/weather_bloc.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
+
   // Önce Firebase'i başlat
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
@@ -94,3 +94,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+/* Debene */
